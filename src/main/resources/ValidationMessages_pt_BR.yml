@@ -1,0 +1,25 @@
+messages:
+  nome:
+    notblank: "O nome é obrigatório e não pode estar em branco."
+    size: "O nome deve ter entre {min} e {max} caracteres."
+  idade:
+    notnull: "A idade não pode ser nula."
+    min: "A idade mínima permitida é {value} anos."
+    max: "A idade máxima permitida é {value} anos."
+  email:
+    notblank: "O e-mail não pode estar em branco."
+    valid: "O e-mail deve ser válido."
+  cpf:
+    notblank: "O CPF não pode estar em branco."
+    format: "O CPF deve conter exatamente 11 dígitos numéricos."
+  dataNascimento:
+    notnull: "A data de nascimento não pode ser nula."
+    past: "A data de nascimento deve estar no passado."
+  senha:
+    notblank: "A senha é obrigatória."
+    size: "A senha deve ter entre {min} e {max} caracteres."
+  telefone:
+    notblank: "O telefone não pode estar em branco."
+    format: "O telefone deve estar no formato (XX) XXXXX-XXXX."
+  aceitaTermos:
+    true: "Você deve aceitar os termos e condições."
