@@ -1,3 +1,5 @@
 spring:
   application:
     name: ValidatorBasic
+  messages:
+    encoding: UTF-8
